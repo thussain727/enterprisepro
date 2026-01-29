@@ -1,0 +1,120 @@
+Client Interview Questions
+
+
+Project: Database Management System for Historical Records
+
+
+
+1. Project Overview & Purpose
+
+•	Who will be the primary users of this system (e.g. historians, staff, students, external researchers)?
+
+•	What is the main purpose of the system: research, public viewing, internal record-keeping, or a combination?
+
+•	Will the application be used online, offline, or both?
+
+•	Any preference for IDE used.
+
+•	How would you like the html page to be run 
+
+
+
+2. Database Requirements – Staff Database
+
+•	What information should be stored for each staff member? (e.g. name, role, years worked, department, biography, photograph)
+
+•	Are any fields mandatory or optional?
+
+•	Should staff records be searchable by: Name, Role, Date range, other criteria?
+
+
+
+
+3. Database Requirements – Sources Database
+
+•	What types of sources will be stored? (e.g. books, documents, logbooks, photographs)
+
+•	What information is required for each source? (e.g. title, author, date, location, reference number)
+
+•	Should sources be searchable by category, date, or keyword?
+
+•	Do sources need to link directly to scanned images or external files?
+
+•	Will users need to see a preview or thumbnail of images?
+
+
+
+4. Images Folder & Hyperlinks
+
+•	What categories should be used for the Images folder? (e.g. Books, Documents, Images, Logbooks)
+
+•	Are there naming conventions that must be followed for image files?
+
+•	Should images open in the same page or a new browser tab?
+
+•	Are there any restrictions on image size or format?
+
+
+
+5. User Interface & Navigation
+
+•	How should users navigate between the 25 pages (menu, buttons, page numbers)?
+
+•	Should all pages share a consistent header and footer?
+
+•	Are there branding requirements (logos, colours, fonts)?
+
+•	Are accessibility features required (e.g. readable fonts, contrast, simple layout)?
+
+•	Is there any colour schemes, fonts , text colour you’d prefer to be used.
+
+•	Which pages are mandatory
+
+•	What would you like each page to display
+
+
+
+6. Search & Functionality
+
+•	Should search results appear on the same page or a new page? (redirect?)
+
+•	Is advanced search required (multiple filters at once)?
+
+•	Should users be able to sort results (e.g. by date or name)?
+
+
+
+7. Reusability & Future Projects
+
+•	How many future projects are expected to reuse this design?
+
+•	Which elements should be easily changeable?
+•	(e.g. headers, titles, database names, colour schemes)
+
+•	Should the system be adaptable without changing database structure?
+
+•	What level of technical knowledge will future users have?
+
+
+
+8. Documentation & Instruction Manual
+
+•	Who will use the instruction manual (technical staff or non-technical users)?
+
+•	Should the manual include: Annotated code examples? Screenshots? Step-by-step instructions?
+
+•	Which parts of the code must not be modified?
+
+•	Are there any documentation standards that must be followed?
+
+
+
+9. Constraints & Deadlines
+
+•	Is there a deadline for the completed system?
+
+•	Are there storage or performance limitations?
+
+•	Are there legal or ethical considerations (e.g. personal data, copyright)?
+
+•	How will the final system be tested and approved?
