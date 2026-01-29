@@ -2,25 +2,30 @@ Client Interview Questions
 
 Project: Database Management System for Historical Records
 
+
+
 1. Project Overview & Purpose
 
-Who will be the primary users of this system (e.g. historians, staff, students, external researchers)?
+•	Who will be the primary users of this system (e.g. historians, staff, students, external researchers)?
 
-What is the main purpose of the system: research, public viewing, internal record-keeping, or a combination?
+•	What is the main purpose of the system: research, public viewing, internal record-keeping, or a combination?
 
-Will the application be used online, offline, or both?
+•	Will the application be used online, offline, or both?
 
-Any preference for IDE used.
+•	Any preference for IDE used.
 
-How would you like the html page to be run 
+•	How would you like the html page to be run 
+
+
 
 2. Database Requirements – Staff Database
 
-What information should be stored for each staff member? (e.g. name, role, years worked, department, biography, photograph)
+•	What information should be stored for each staff member? (e.g. name, role, years worked, department, biography, photograph)
 
-Are any fields mandatory or optional?
+•	Are any fields mandatory or optional?
 
-Should staff records be searchable by: Name, Role, Date range, other criteria?
+•	Should staff records be searchable by: Name, Role, Date range, other criteria?
+
 
 
 3. Database Requirements – Sources Database
