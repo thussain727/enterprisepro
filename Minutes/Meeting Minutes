@@ -1,6 +1,5 @@
 Meeting Minutes 
 
- 
 
 Meeting One – 29/01/26: 
 
@@ -13,6 +12,7 @@ Elysia Horder
 Zain-Ul-Abedeen 
 Fayzaan Khan 
 Victor Nwagu 
+
 Content: 
 
 Team members assigned generalised development/documentation tasks based on specific skillsets and preferences 
@@ -22,12 +22,46 @@ Misc. Development: Siraaj, Elysia, Zain
 Documentation: Tawfeeq, Zain 
 Project requirements and specifications laid out based on initial brief provided by the client 
 Initial questions for the client determined (based on where further clarification was necessary) 
+
 Tasks Since Last Meeting: 
 
-N/A 
+N/A
+
 Tasks To Complete Before Next Meeting: 
 
 Client meeting to seek clarification and greater detail (whole team) 
  
-Meeting Two - random date?
+Meeting Two - 05/02/26
+
+Participants: 
+
+Tawfeeq Hussain 
+Ibraheim Hussain 
+Siraaj Ali 
+Elysia Horder 
+Zain-Ul-Abedeen 
+Victor Nwagu 
+
+Absence(s):
+
+Fayzaan Khan
+
+Content:
+
+Interview with the client (Ray Greenhough), gave us the project specification (electronic version will be emailed very soon), 
+the overview was also given. The key questions that were clarified were to provide an instruction manual with a strict policy
+to provide explanation of how the project and code can be modified for similar projects. The website should be locally
+accessible, and is not to be published to the WWW, during the halfway point of the project an update of the progress will be
+presented to discuss our progression and also at the end for presentation and submission of the entire project. As a team,
+we've decided a colour scheme/template idea for the chosen website with a discussion about the specification and what is
+expected from this team to complete this project with confidence.
  
+Tasks to complete for next meeting:
+
+Completed version of a basic HTML/CSS website template
+Instruction manual draft
+Assign roles to specific team members upon the webpage/sql split.
+
+Meeting Three - 09/02/26:
+
+Participants:
