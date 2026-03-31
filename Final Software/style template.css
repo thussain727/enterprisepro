@@ -1,0 +1,321 @@
+/* Base Styles for HTML and Body */
+html, body {                       
+  min-height: 100%; /* Make sure the page fills the viewport height */
+  margin: 0; /* Remove default browser margin */
+}
+
+body {                              
+  min-height: 100%; /* Ensure body stretches to at least full height */
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Set the default font for the entire page */
+}
+
+/* Header Styles */
+header {                             
+  width: 100%; /* Header spans full width of the page */
+  height: 80px; /* Fixed height for the header */
+  background: #2f574de6; /* background colour - green */
+  display: flex; /* flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+h1 {                                 
+  color: #f4f0e9e6; /*heading text */
+  white-space: nowrap;  /* Prevent heading from wrapping to next line */
+  font-family: "Quicksand", sans-serif; /* Apply a clean, modern font for headings */
+}
+
+h2 {                                 
+  font-family: "Inter", sans-serif; /* Subheadings use a different modern font */
+}
+
+a {                                   
+  color: #2f574de6; /* Links are styled in the same green as header */
+}
+
+/* Logo Section */
+.logo-container {                     
+  width: 100%; /* Container stretches full width */
+}
+
+.logo-container img {                 
+  width: 100%;  /* image spans entire container width */
+  height: 60vh; /* Set height relative to viewport for responsiveness */
+  object-fit: cover; /* Image covers container */
+}
+
+/* Navigation Bar Styles */
+.navigationbar {                       
+  background-color: #2f574de6; /* Green background for nav bar */
+  display: flex; /* flexbox to arrange buttons */
+  justify-content: space-around; /* Evenly space the navigation buttons */
+  padding: 10px; /* Add padding inside navigation bar */
+}
+
+.navigationbutton {                    
+  background-color: #2f574de6; /* Same green background for buttons */
+  color: white; /* White text for the buttons */
+  padding: 15px 32px; /* Space inside buttons for better click area */
+  text-align: center; /* Center text inside the buttons */
+  text-decoration: none; /* Remove underline from links */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition-duration: 0.5s; /* Smoother transition for hover effects */
+  border: none; /* Remove the defaul button borders */
+  border-radius: 12px; /* Rounded corners for a modern look */
+  font-family: "Poppins", sans-serif; /* Modern font for buttons */
+  font-weight: 600; /* Make button text bold */
+}
+
+.navigationbutton:hover {              
+  background-color: #f4f0e9e6; /* Light background when hovered */
+  color: black; /* Change text color to black on hover */
+}
+
+/* Page Content Sections */
+.childpagecontent {                    
+  display: flex;  /* Use flexbox layout for arranging child elements */
+  flex-direction: column;  /* Stack child elements vertically instead of horizontally */
+  justify-content: space-between; /* Distribute extra space evenly between child elements */
+  gap: 30px;  /* Set 30px spacing between each child element */
+  padding-left: 10px;  /* Add 10px padding on the left side */
+  padding-right: 10px;  /* Add 10px padding on the right side */
+  background-color: #e6e1d8e6; /* Apply light beige background */
+}
+
+/* Page Content Sections */
+.pagecontent {                         
+  display: flex; /* Use flexbox layout for arranging content horizontally */
+  justify-content: space-between; /* Space out child elements evenly across the row */
+  gap: 30px; /* Set 30px spacing between each child element */
+  padding-left: 10px;  /* Add 10px padding on the left side */
+  padding-right: 10px;  /* Add 10px padding on the right side */
+  background-color: #e6e1d8e6; /* Light beige background for the content area */
+}
+
+.pagetext {                            
+  border-right: 2px solid; /* Add a vertical line to separate content sections */
+  font-size: 1.1rem;  /* Slightly larger font for easier reading */
+  padding: 5px;   /* Padding inside the text block */
+}
+
+/* Notable Dates Section */
+.notabledates p {                      
+  flex: 1;     /* Allow each date box to expand evenly */
+  min-width: 210px; /* Ensure each box has a minimum width for layout */
+  background-color: #ffffffcc; /* White background*/
+  border-radius: 14px; /* Rounded corners for a softer appearance */
+  padding: 12px 16px; /* Space inside each box for content */
+  margin-bottom: 12px;     /* Space between stacked date boxes */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* shadow effect */
+  transition-duration: 0.5s;  /* Smooth transition for hover effects */
+}
+
+.notabledates p:hover {                
+  background-color: #2f574de6; /* Change background to green on hover */
+  color: white; /* Change text color to white on hover */
+}
+
+/* Footer Section */
+footer {                               
+  width: 100%; /* Footer spans the full page width */
+  background-color: #2f574de6;  /* Deep green footer background */
+  color: #ffffff;  /* White text for contrast */
+  padding: 20px 0; /* Vertical padding for spacing */
+  margin-top: auto;  /* Push footer to the bottom of the page */
+  text-align: center; /* Center align footer text */
+}
+
+.footer-container {                     
+  width: 100%;                          
+  max-width: 1200px;  /* Limit footer content width for readability */
+  margin: 0 auto; /* Center the footer content horizontally */
+  padding: 0 20px; /* Horizontal padding inside the container */
+}
+
+.footer-text {                          
+  font-size: 14px; /* Set a small font size for footer text */
+  margin: 0;  /* Remove default margin */
+}
+
+/* Table Styles */
+table, th, td {                         
+  border: 3px solid black; /* Solid border around table and cells */
+  border-collapse: collapse; /* Merge borders to prevent double lines */
+  padding: 8px;                         
+  margin: 20px auto; /* Center table on the page */
+}
+
+.table-title {                          
+  text-align: left;  /* Align table title text to the left */
+  vertical-align: top; /* Align content to the top of the cell */
+  height: 100px; /* set fixed height for table title row */
+  padding: 15px; /* add spacing inside the title cell */
+  font-weight: normal; /* Remove the bold font styling */
+}
+
+th {                                    
+  font-weight: normal;  /* Table headers are not bold */
+  text-align: left;  /* align header text to the left */
+}
+
+/* Logbook Table Specific Styles */
+.logbook-table {                         
+  width: 100%; /* Table takes full width of its container */
+  margin: 40px auto;   /* Center table with top and bottom spacing */
+  border-collapse: collapse;  /* Merge table borders for cleaner look */
+  table-layout: fixed; /* columns have fixed widths */
+}
+
+.logbook-table th,
+.logbook-table td {                      
+  border: 2px solid black; /* Solid border for each cell */
+  padding: 10px;  /* Internal padding for content inside cells */
+  height: 12px; /* fixed row height */
+}
+/* Search Section */
+.search-section {                       
+  background-color: #f4f0e9e6; /* Light beige background for the search area */
+  border: 1px solid #c8c2b5; /* Subtle border around the search section */
+  border-radius: 8px; /* Rounded corners */
+  padding: 24px 28px; /* Inner spacing */
+  margin: 24px 16px 0 16px; /* Outer spacing with left/right margin */
+}
+
+.search-section h2 {                    
+  margin: 0 0 18px 0; /* Space below the heading */
+  color: #2f574de6; /* Green heading to match site theme */
+  font-size: 1.3rem; /* Slightly larger font for section title */
+}
+
+.search-grid {                          
+  display: grid; /* Use grid layout for search fields */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+  gap: 16px; /* Spacing between grid items */
+}
+
+.search-field {                         
+  display: flex; /* Flex layout for label + input stacking */
+  flex-direction: column; /* Stack label above input */
+  gap: 5px; /* Small gap between label and input */
+}
+
+.search-field label {                   
+  font-size: 0.85rem; /* Smaller font for labels */
+  font-weight: 600; /* Bold labels for clarity */
+  color: #3a3a3a; /* Dark grey label text */
+}
+
+.search-field select,
+.search-field input[type="text"] {      
+  padding: 8px 10px; /* Inner spacing for inputs */
+  border: 1px solid #b0a898; /* Subtle border for inputs */
+  border-radius: 6px; /* Rounded input corners */
+  font-size: 0.95rem; /* Readable font size */
+  font-family: Arial, sans-serif; /* Consistent font */
+  background-color: #ffffff; /* White input background */
+}
+
+.search-field select:focus,
+.search-field input[type="text"]:focus { 
+  outline: 2px solid #2f574de6; /* Green focus outline to match theme */
+  border-color: #2f574de6; /* Green border on focus */
+}
+
+.search-buttons {                       
+  margin-top: 20px; /* Space above the button row */
+  display: flex; /* Arrange buttons in a row */
+  gap: 12px; /* Space between buttons */
+}
+
+.btn-search {                           
+  background-color: #2f574de6; /* Green background for the primary search button */
+  color: #ffffff; /* White text */
+  border: none; /* Remove default border */
+  padding: 10px 28px; /* Inner spacing */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 1rem; /* Standard font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth hover transition */
+}
+
+.btn-search:hover {                     
+  background-color: #1e3d35; /* Darker green on hover */
+}
+
+.btn-reset {                            
+  background-color: #a09080; /* Muted brown for the reset button */
+  color: #ffffff; /* White text */
+  border: none; /* Remove default border */
+  padding: 10px 22px; /* Inner spacing */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 1rem; /* Standard font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth hover transition */
+}
+
+.btn-reset:hover {                      
+  background-color: #6e5f52; /* Darker brown on hover */
+}
+
+/* Results Section */
+.results-section {                      
+  margin: 20px 16px 24px 16px; /* Outer spacing around the results area */
+}
+
+.results-count {                        
+  font-size: 0.95rem; /* Slightly smaller font for result count */
+  color: #2f574de6; /* Green text to match theme */
+  margin-bottom: 10px; /* Space below the count */
+  font-weight: 600; /* Bold for emphasis */
+}
+
+.table-scroll {                         
+  overflow-x: auto; /* Allow horizontal scrolling on small screens */
+}
+
+.results-table {                        
+  width: 100%; /* Full width table */
+  border-collapse: collapse; /* Merge borders for cleaner look */
+  font-family: Arial, sans-serif; /* Consistent font */
+  font-size: 0.88rem; /* Slightly smaller font for dense data */
+}
+
+.results-table th {                     
+  background-color: #2f574de6; /* Green header background */
+  color: #f4f0e9e6; /* Light beige header text */
+  padding: 10px; /* Inner spacing for header cells */
+  text-align: left; /* Left-align header text */
+  white-space: nowrap; /* Prevent header text from wrapping */
+}
+
+.results-table td {                     
+  padding: 8px 10px; /* Inner spacing for data cells */
+  border-bottom: 1px solid #d4cec5; /* Subtle row separator */
+  vertical-align: top; /* Align content to the top of cells */
+}
+
+.results-table tr:nth-child(even) td { 
+  background-color: #f0ece4; /* Alternate row shading for readability */
+}
+
+.results-table tbody tr:hover td {     
+  background-color: #dff0eb; /* Light green highlight on row hover */
+}
+
+.no-results {                           
+  padding: 18px; /* Inner spacing */
+  background-color: #fff4e0; /* Warm yellow background for no-results message */
+  border-left: 4px solid #c8900a; /* Orange left border for visual cue */
+  border-radius: 4px; /* Slightly rounded corners */
+  color: #5a4000; /* Dark brown text for contrast */
+}
+
+.search-prompt {                        
+  padding: 18px; /* Inner spacing */
+  background-color: #eaf4f0; /* Light green background for prompt message */
+  border-left: 4px solid #2f574de6; /* Green left border to match theme */
+  border-radius: 4px; /* Slightly rounded corners */
+  color: #1e3d35; /* Dark green text */
+  margin-top: 10px; /* Space above the prompt */
+}
